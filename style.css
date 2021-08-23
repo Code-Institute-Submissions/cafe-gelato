@@ -8,13 +8,14 @@ body {
 
 
 .navbar {
-    border:solid;
-    border-color: rgb(26, 145, 167);
     display:flex;
     justify-content: space-between;
     text-align: center;
     background-color: rgba(255, 241, 176, 0.8);
     flex-direction: column;
+    position: fixed;
+    padding: 0.5rem;
+    width: 100%;
 }
 
 .navbar-links ul {
@@ -30,7 +31,7 @@ body {
 
 .navbar-links li a {
     text-decoration: none;
-    color: rgb(26, 145, 167);
+    color: rgb(40, 191, 218);
     padding: 0.2rem;
     display: block;
 }
@@ -46,36 +47,45 @@ body {
 
 .background-image {
     background-image: url(img/background5.jpg);
-    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: -30px;
-    height: 50vh;
+    margin-top: -27px;
+    height: 65vh;
     
 }
 
-div h1 {
+.background-image h1 {
     font-style: italic;
     text-align: center;
+    color: rgb(231, 98, 202);
     font-size: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-
+    margin-right: 1rem;
+    padding-top: 3rem;
 }
 
-    
-.menu {
-    background-color:grey;
+.background-image h2 {
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(231, 98, 202);
+    text-align: center;
+    margin-right: 1rem;
 }
 
 
+
+.bg-color {
+    background-color: rgb(40, 191, 218);
+    height: 50vh;
+    margin-top: -22px;
+
+}
 
 
 
 
 footer {
-    background-color:green;
+    background-color: rgb(231, 98, 202);
     color: black;
     padding: 10px;
     margin:0px;
