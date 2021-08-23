@@ -1,83 +1,55 @@
 
 body {
-    background-color:white;
     font-family: Geneva, Tahoma, sans-serif;
-    color:black;
     margin: 0px;
     padding: 0px;
 }
 
-section div {
-    border: solid;
-    padding: 292px;
+
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color:black;
+    color: white;
+    flex-direction: column;
 }
 
-ul {
-   background-color: black;
-    list-style-type: none;
-    padding: 5px;
-    margin-top: 0px;
-    position: fixed;
-    width: 100%;
-    }
+.navbar-links ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
 
-    li {
-        color: white;
-        
-        display: inline-block;
-        padding: 10px;
-        margin-left: 30px;
-        
-    }
+}
 
-    li a {
-      
-        width: 60px;
-        color:white;
-        text-decoration: none;
-        }
+.navbar-links li {
+    list-style: none;
+}
 
-        li a:hover {
-           color: rgb(71, 69, 64);
-           }
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: inline-block;
+}
 
-        li a:active {
-            color: rgb(71, 69, 64);
-         }
+.navbar-links li:hover {
+    background-color: #455;
+}
+
+
 
          
- 
- 
 
-
-h1{
-    font-style: geneva;
-    font-size: 78px;
-    text-align: center;
     
-}
-
-.italy {
-    text-align: center;
-    font-size: 45px;
-    font-style:italic;
-}
-
-.background-header {
-    background-color: white;
-    padding: 150px;
-}
-    
-.background-menu {
+.menu {
     background-color:grey;
-    padding:300px;
-    border: solid;
 }
 
-h2 {
-   margin-top: 0px;
-   
-}
+
+
+
 
 
 footer {
@@ -89,4 +61,8 @@ footer {
 }
 
 
+.background-image {
+    background-image: url(img/background.jpg);
+    margin-top: -20px;
+}
 
