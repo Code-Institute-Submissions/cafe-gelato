@@ -1,35 +1,39 @@
-
 body {
     font-family: Geneva, Tahoma, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-
-
 .navbar {
-    display:flex;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     background-color: rgba(255, 241, 176, 0.8);
     flex-direction: column;
+    align-items: center;
+}
+
+.fixed-top {
     position: fixed;
-    padding: 0.5rem;
-    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 @media (min-width:768px) {
     .navbar {
-        position:fixed;
         padding: 0.7rem;
     }
 }
 
 .navbar-links ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .navbar-links li {
@@ -52,7 +56,6 @@ body {
 
 .navbar-links li:hover {
     background-color: rgb(231, 98, 202);
-
 }
 
 .navbar-links li a:hover {
@@ -64,9 +67,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: -27px;
+    margin-top: -4rem;
     height: 65vh;
-    
 }
 
 .background-image h1 {
@@ -77,11 +79,11 @@ body {
     font-weight: 800;
     margin-right: 1rem;
     padding-top: 5rem;
-    
 }
 
 @media (min-width:768px) {
     .background-image h1 {
+        font-size: 4rem;
         padding-top: 7rem;
     }
 }
@@ -95,7 +97,7 @@ body {
     margin-right: 1rem;
 }
 
-@media (min-width:768px){
+@media (min-width:768px) {
     .background-image h2 {
         font-size: 50px;
     }
@@ -113,8 +115,6 @@ body {
         margin-top: -29px;
     }
 }
-    
-
 
 
 .homemade-flavors {
@@ -126,13 +126,10 @@ body {
     text-decoration: underline;
 }
 
- .ic-list {
+.ic-list {
     display: flex;
     flex-direction: column;
-  
     width: 100%;
-    
-    
 }
 
 .ic-list li {
@@ -143,7 +140,6 @@ body {
     font-size: 2rem;
     padding-right: 2rem;
     line-height: 5rem;
-    
 }
 
 @media (max-width:320px) {
@@ -157,7 +153,7 @@ body {
         flex-direction: row;
         text-align: center;
         justify-content: space-between;
-      
+
     }
 }
 
@@ -166,7 +162,7 @@ body {
     .ic-list li {
         text-align: center;
         width: 38vw;
-       
+
     }
 }
 
@@ -176,13 +172,13 @@ form .catering-form {
     max-width: 2000px;
     border: 4px solid rgb(231, 98, 202);
     padding: 2rem;
-    
+
 
 }
 
 .catering-form div {
     width: 200px;
-    margin:auto;
+    margin: auto;
 }
 
 label {
@@ -193,7 +189,7 @@ input {
     margin: 0.9rem auto;
     padding: 5px;
     border: 2.5px solid rgb(231, 98, 202);
-    
+
 }
 
 button {
@@ -205,7 +201,7 @@ button {
 button:hover {
     color: white;
     background-color: rgb(231, 98, 202);
-    border-color:rgb(40, 191, 218);
+    border-color: rgb(40, 191, 218);
 }
 
 
@@ -215,8 +211,6 @@ footer {
     background-color: rgb(231, 98, 202);
     color: black;
     padding: 10px;
-    margin:0px;
-    position:inherit;
+    margin: 0px;
+    position: inherit;
 }
-
-
