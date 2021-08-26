@@ -155,7 +155,6 @@ body {
 @media (min-width:768px) {
     .ic-list {
         flex-direction: row;
-        position: relative;
         text-align: center;
         justify-content: space-between;
       
@@ -170,6 +169,46 @@ body {
        
     }
 }
+
+
+form .catering-form {
+    display: block;
+    max-width: 2000px;
+    border: 4px solid rgb(231, 98, 202);
+    padding: 2rem;
+    
+
+}
+
+.catering-form div {
+    width: 200px;
+    margin:auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin: 0.9rem auto;
+    padding: 5px;
+    border: 2.5px solid rgb(231, 98, 202);
+    
+}
+
+button {
+    font-weight: bold;
+    padding: 4px;
+    border: 2px solid rgb(231, 98, 202);
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(231, 98, 202);
+    border-color:rgb(40, 191, 218);
+}
+
+
 
 
 footer {
