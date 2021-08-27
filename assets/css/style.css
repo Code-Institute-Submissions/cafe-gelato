@@ -110,7 +110,6 @@ body {
 
 @media (max-width:320px) {
     .bg-color1 {
-        height: 75vh;
         background-color: rgb(40, 191, 218);
         margin-top: -29px;
     }
