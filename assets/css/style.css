@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 
-.fixed-top {
+.top {
     position: fixed;
     top: 0;
     right: 0;
