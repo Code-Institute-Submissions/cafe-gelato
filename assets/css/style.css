@@ -68,7 +68,7 @@ body {
     background-size: cover;
     background-position: center;
     margin-top: -4rem;
-    height: 65vh;
+    height: 75vh;
 }
 
 .background-image h1 {
@@ -103,13 +103,13 @@ body {
 }
 
 .bg-color1 {
-    background-color: rgb(40, 191, 218);
+    background-color: rgba(40, 191, 218, 0.5);
     margin-top: -29px;
 }
 
 @media (max-width:320px) {
     .bg-color1 {
-        background-color: rgb(40, 191, 218);
+        background-color: rgba(40, 191, 218, 0.5);
         margin-top: -29px;
     }
 }
@@ -236,5 +236,5 @@ footer {
     color: black;
     padding: 10px;
     margin: 0px;
-    position: inherit;
+    
 }
