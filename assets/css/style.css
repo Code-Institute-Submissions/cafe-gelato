@@ -210,26 +210,45 @@ button:hover {
 
 
 
-
-.contact-text h3 {
+.header3 {
     text-align: center;
     color: rgb(231, 98, 202);
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
-.contact-text p {
-    margin: 0.9rem auto;
+
+.contact-text {
+    text-align: center;
     padding: 5px;
     line-height: 1.5rem;
     color: rgb(231, 98, 202);
     font-weight: bold;
 }
 
-.contact-text p span {
+.contact-text span {
     font-weight: bold;
     color: black;
 }
 
+
+.opening-hours {
+    text-align: center;
+    padding: 5px;
+    line-height: 2rem;
+    color: rgb(231, 98, 202);
+    font-weight: bold;
+}
+
+.opening-hours span {
+    color: black;
+    font-weight: bold;
+}
+
+.header4 {
+    color: rgb(231, 98, 202);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
 
 footer {
 position: absolute;
