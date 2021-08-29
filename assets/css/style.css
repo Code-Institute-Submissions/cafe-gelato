@@ -107,10 +107,11 @@ body {
     margin-top: -29px;
 }
 
-@media (max-width:320px) {
+
+@media (min-width:768px) {
     .bg-color1 {
+        height: 75vh;
         background-color: rgba(40, 191, 218, 0.5);
-        margin-top: -29px;
     }
 }
 
@@ -159,6 +160,7 @@ body {
     .ic-list li {
         text-align: center;
         width: 38vw;
+        line-height: 8rem;
 
     }
 }
