@@ -67,7 +67,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: -4rem;
+    margin-top: -5rem;
     height: 75vh;
 }
 
@@ -232,9 +232,21 @@ button:hover {
 
 
 footer {
-    background-color: rgb(231, 98, 202);
-    color: black;
-    padding: 10px;
-    margin: 0px;
-    
+position: absolute;
+background-color: rgba(40, 191, 218, 0.5);
+width: 100%;
+padding-top: 5px;
+margin-top: -4px;
+text-align: center;
+}
+
+.social a {
+color: rgb(231, 98, 202);
+margin-inline: 0.7rem;
+font-size: 1.5rem;
+}
+
+.social p {
+    font-size: 0.8rem;
+    font-weight: bold;
 }
