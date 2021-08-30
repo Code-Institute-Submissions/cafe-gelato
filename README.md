@@ -11,7 +11,7 @@ The website give you information about the cafés menu, when the opening times a
  
   - On the top of the page you find the navigation bar. Then navigation bar is in a yellow color. The bar is styled with some opacity. Which help the blue navigation links to become visible. 
   - The navigation links are centered in the navigation bar. They are named Home, Menu, Catering and Contact. The links connect the user to the website different sections. 
-  - When you hover the mouse the navigation links. The text-color turns into white and the background around the navigation links becomes pink. 
+  - When you hover the mouse over the navigation links. The text-color turns into white and the background around the navigation links turns into pink. 
   
   ![navigationbar](https://user-images.githubusercontent.com/87748379/131383276-1c10b3e1-0c68-4394-a075-b4823f4fe8f8.JPG)
 
