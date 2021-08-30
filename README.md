@@ -15,6 +15,13 @@ The website gives you information about the cafés menu, opening hours, where it
   
   ![navigationbar](https://user-images.githubusercontent.com/87748379/131383276-1c10b3e1-0c68-4394-a075-b4823f4fe8f8.JPG)
 
+- The Header
+  - The header shows the name of the café. Under the name is the cafés slogan. Which is "Your local ice cream café".
+  - The text in the header is styled with a pink color. The same pink color i used as a text-color in the rest of the page. 
+  - The header background is styled with a image of two ice creams. The image strngthen the users understanding that this website is for an ice cream café.
+
+  ![header](https://user-images.githubusercontent.com/87748379/131390905-bd5f19af-5b65-482d-9722-09429fb33036.JPG)
+
 
 
 
