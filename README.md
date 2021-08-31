@@ -62,11 +62,28 @@ The website gives you information about the cafés menu, opening hours, where it
   ## **Bugs**
 
 - **Solved bugs**
- - I have tested my projects for bugs at https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/. 
- - When I tested my html file for bugs i found out that I have written 100% width in my iframe tag. 
- - I solved that bug by first remove the 100% width in the html file. After that I made a class called "map" in the html and the css file. I then added 100% width in the map class inside the css file. 
+ - When I first tested my html file for bugs i found out that I have written 100% width in my iframe tag. 
+ - I solved that bug by first remove the 100% width in the html file. After that I made a class called "map" in the html and the css file. I then added 100% width in the map class inside the css file. That solved the bug and kept the maps width across the whole screen.
 
  ![mapclass](https://user-images.githubusercontent.com/87748379/131560665-2fbc1318-5b11-4f6a-b950-e46fda6947f0.JPG)
+
+ ## **Validator Testing**
+ - I have tested my project for bugs at https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/. 
+
+ - No errors were found when testing the html file in the W3C validator.
+
+ ![htmlw3c](https://user-images.githubusercontent.com/87748379/131566852-4213c2b6-7a2a-4b1c-a2bf-2f6e46d7f3f2.JPG)
+
+ - No errors were found when testing the css file in the W3C CSS validator.
+
+ ![cssw3c](https://user-images.githubusercontent.com/87748379/131567328-94251b8e-8f39-4466-be1f-b5241c494cb2.JPG)
+
+ - I confirm that the performance, accessibility, best practices and SEO are good by running it through lighthouse in devtools.
+
+ ![lighthouse](https://user-images.githubusercontent.com/87748379/131568015-2608ef5a-dee0-4520-a160-53e112042791.JPG)
+
+ 
+
 
 
 
