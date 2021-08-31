@@ -52,12 +52,23 @@ The website gives you information about the cafés menu, opening hours, where it
 
 ## **Testing**
   - I have tested that this website works in different browsers: Firefox, Chrome and Safari.
-  - I confirm that this website is responsive and works on all standard screen sizes using the devtolls device toolbar.
+  - I confirm that this website is responsive and works on all standard screen sizes using the devtools device toolbar.
   - I confirm that all the navigation links that connect the different sections works.
   - I confirm that the text-information on the website has an readable font and color.
   - I confirm that the contact-form works. I have also tested that only an email is acceptable in the email field. 
   - I confirm that form require entries in every field and that the send button works.
   - I confirm that the links in the social media logotypes works and that the social media websites opens up in a new window. 
+  
+  ## **Bugs**
+
+- **Solved bugs**
+ - I have tested my projects for bugs at https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/. 
+ - When I tested my html file for bugs i found out that I have written 100% width in my iframe tag. 
+ - I solved that bug by first remove the 100% width in the html file. After that I made a class called "map" in the html and the css file. I then added 100% width in the map class inside the css file. 
+
+ ![mapclass](https://user-images.githubusercontent.com/87748379/131560665-2fbc1318-5b11-4f6a-b950-e46fda6947f0.JPG)
+
+
 
 
 
