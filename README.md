@@ -85,6 +85,17 @@ The website gives you information about the cafés menu, opening hours, where it
  ### **Unfixed bugs**
  - No unfixed bugs.
 
+ ## **Deployment**
+ - The website was deployed to GitHub pages. The following steps were taken:
+ 1. First log in to Github.
+ 2. Select Ehnvik/cafe-gelato from repositories list.
+ 3. Select Settings from the Menu items.
+ 4. Click on pages.
+ 5. Change Branch: None to Branch: Main and then save.
+ 6. The page has now provided the link.
+
+ https://ehnvik.github.io/cafe-gelato/
+
  ## **Credit**
  
 ### **Content**
