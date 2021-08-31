@@ -23,7 +23,7 @@ The website gives you information about the cafés menu, opening hours, where it
   ![Header](https://user-images.githubusercontent.com/87748379/131390905-bd5f19af-5b65-482d-9722-09429fb33036.JPG)
 
 - **The Menu section**
-  - The Menu section gives details about which flavors the café offers. 
+  - The Menu section includes an ice cream menu. The menu informs the user of what flavors the café can offer.
   - The h2 element on top of the section gives information that the flavors are home made. 
   - The layout of the menu change when displayed on different devices.
 
@@ -45,12 +45,24 @@ The website gives you information about the cafés menu, opening hours, where it
 - **Footer**
   - The footer is colored in the same blue color as the background color in the menu section.
   - The footer is styled with social media logotypes. The social media websites are Facebook, Instagram and Twitter.
-  - The social media logotypes are linked to their actual websites.
+  - The social media logotypes are there so the user can find Café Gelato on Facebook, Instagram and Twitter.
   - Under the social media logotypes you find the copyright text. The text state that the website belongs to Café Gelato.
-
+  
   ![Footer](https://user-images.githubusercontent.com/87748379/131551692-f2d4d163-9e9c-4a4d-b9fe-2459ccb3dc2d.JPG)
 
-  
+## **Testing**
+  - I have tested that this website works in different browsers: Firefox, Chrome and Safari.
+  - I confirm that this website is responsive and works on all standard screen sizes using the devtolls device toolbar.
+  - I confirm that all the navigation links that connect the different sections works.
+  - I confirm that the text-information on the website has an readable font and color.
+  - I confirm that the contact-form works. I have also tested that only an email is acceptable in the email field. 
+  - I confirm that form require entries in every field and that the send button works.
+  - I confirm that the links in the social media logotypes works and that the social media websites opens up in a new window. 
+
+
+
+
+
 
 
 
