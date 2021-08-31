@@ -29,6 +29,11 @@ The website gives you information about the cafés menu, opening hours, where it
 
   ![menu](https://user-images.githubusercontent.com/87748379/131393366-278c07e4-feec-49cd-be8c-1944761a34e2.JPG)
 
+- **The Catering section**
+  - The Catering section gives information to the user that the café also offering catering. The section also includes a form.
+  - The form collect the users contact information so the café personnel can come back to the user with more information about catering.
+  - The user i required to fill in every information-box in the form. So the café don´t miss out on any important information.
+  
   
 
 
